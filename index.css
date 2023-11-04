@@ -1,0 +1,430 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-vector/party-crowd-banner-against-sunset-sky_1048-12631.jpg?size=626&ext=jpg&ga=GA1.1.1927852465.1670052664&semt=ais");
+  background-size: cover;
+  height: max-content;
+  overflow-y: auto;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 575px) {
+  .main-heading {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 19px;
+  }
+
+  .image-and-trending-topic-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trending-topic-container {
+    width: 90%;
+    background-color: #faf7f7;
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 14px;
+  }
+
+  .top-trending-heading {
+    font-size: 17px;
+  }
+
+  .women-image {
+    width: 90%;
+    height: 400px;
+  }
+
+  .unleash-description {
+    font-weight: bold;
+    font-size: 19px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    color: red;
+  }
+
+  .topic-list {
+    list-style-type: none;
+    text-align: start;
+    margin-right: 27px;
+    align-self: center;
+  }
+
+  .topic {
+    display: flex;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  .join-dirs {
+    color: #ffffff;
+    font-size: 13px;
+  }
+
+  .date-time {
+    font-size: 14px;
+  }
+
+  .u-will-learn-heading {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 19px;
+  }
+
+  .topic-des {
+    font-size: 13px;
+  }
+
+  .unleash-heading {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .impact-of-des {
+    font-size: 14px;
+  }
+
+  .date-time2 {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .meet-your-hosts-heading {
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+
+  .hosts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .each-host-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: max-content;
+    width: 90%;
+    margin-bottom: 14px;
+  }
+
+  .host-name {
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+  }
+
+  .host-role {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .host-description {
+    font-weight: 700;
+    font-size: 11px;
+    color: #ffffff;
+  }
+
+  .unleash-heading-2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .impact-of-des2 {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .date-time3 {
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .companylogo-and-name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .main-heading {
+    font-weight: bold;
+    font-size: 29px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 19px;
+  }
+
+  .image-and-trending-topic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .trending-topic-container {
+    width: 60%;
+    background-color: #faf7f7;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+  }
+
+  .top-trending-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .women-image {
+    width: 40%;
+    height: 400px;
+  }
+
+  .unleash-description {
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: red;
+    text-align: center;
+  }
+
+  .topic-list {
+    list-style-type: none;
+    text-align: start;
+    margin-right: 27px;
+  }
+
+  .topic {
+    display: flex;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  .u-will-learn-heading {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+  }
+
+  .date-time {
+    font-size: 14px;
+  }
+
+  .topic-des {
+    font-size: 16px;
+  }
+
+  .unleash-heading {
+    font-weight: bold;
+    font-size: 27px;
+  }
+
+  .impact-of-des {
+    font-size: 17px;
+  }
+
+  .date-time2 {
+    font-weight: bold;
+    font-size: 19px;
+  }
+
+  .meet-your-hosts-heading {
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+
+  .hosts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .each-host-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 30%;
+    height: 800px;
+  }
+
+  .host-name {
+    font-weight: bold;
+    font-size: 21px;
+    color: #ffffff;
+  }
+
+  .host-role {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+  }
+
+  .host-description {
+    font-weight: 700;
+    font-size: 11px;
+    color: #ffffff;
+  }
+
+  .unleash-heading-2 {
+    font-weight: bold;
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .impact-of-des2 {
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .date-time3 {
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .companylogo-and-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.meet-your-hosts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  height: max-content;
+  width: 100%;
+}
+
+.topic-image {
+  height: 30px;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+
+.join-dirs {
+  background-color: black;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  width: 90%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cost {
+  text-decoration: line-through;
+}
+
+.secure-seat-button {
+  background-color: #d9390d;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+  border-radius: 9px;
+  margin: 14px;
+  height: max-content;
+  width: 140px;
+}
+
+.what-u-learn-container {
+  background-image: url("https://img.freepik.com/free-photo/robot-looking-pensively-white-wall_1048-11631.jpg?size=626&ext=jpg&ga=GA1.1.1927852465.1670052664&semt=ais");
+  background-size: cover;
+  height: max-content;
+  background-color: transparent;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.topics-list {
+  width: 80%;
+  margin-top: 10px;
+}
+
+.host-image {
+  height: 100px;
+}
+
+.date-and-venue-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secure-seat-button3 {
+  background-color: #d9390d;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
+  border-radius: 40%;
+  margin: 14px;
+  height: max-content;
+  width: 230px;
+}
+
+.company-logo {
+  height: 40px;
+  width: 120px;
+}
+
+.copy-right {
+  font-size: 11px;
+}
+
+.footer-container {
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.logos-container {
+  background-color: #d9390d;
+  width: 100%;
+  flex-wrap: wrap;
+  height: max-content;
+  padding: 7px;
+}
